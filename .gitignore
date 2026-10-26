@@ -1,0 +1,19 @@
+# Android / Gradle
+*.iml
+.gradle/
+/local.properties
+.idea/
+.DS_Store
+build/
+captures/
+.externalNativeBuild
+.cxx/
+
+# 签名与密钥，绝不入库
+*.jks
+*.keystore
+keystore.properties
+
+# 系统杂项
+Thumbs.db
+*.log

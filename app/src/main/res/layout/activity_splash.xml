@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/splash_bg">
+
+    <com.keepup.course.AuroraView
+        android:id="@+id/aurora"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+    <!-- 顶部极细渐变进度条：告诉用户"在启动"，不是卡住了 -->
+    <View
+        android:id="@+id/spine"
+        android:layout_width="match_parent"
+        android:layout_height="2.5dp"
+        android:layout_gravity="top"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/bg_rail" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <com.keepup.course.SplashMarkView
+            android:id="@+id/mark"
+            android:layout_width="168dp"
+            android:layout_height="168dp" />
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:includeFontPadding="false"
+            android:letterSpacing="0.06"
+            android:text="@string/app_name"
+            android:textColor="@color/splash_text"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvTag"
+            style="@style/T.Label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:letterSpacing="0.28"
+            android:text="@string/splash_tag_en"
+            android:textColor="@color/splash_muted" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvFooter"
+        style="@style/T.Meta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="42dp"
+        android:letterSpacing="0.08"
+        android:text="@string/splash_footer"
+        android:textColor="@color/splash_muted" />
+</FrameLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- 黑环，开口表示「还在走」 -->
+    <path
+        android:pathData="M49.66,78.62 A25,25 0 1 1 73.15,70.07"
+        android:strokeColor="#121212"
+        android:strokeWidth="7.5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+
+    <!-- 缺口端点：白色小珠 -->
+    <path
+        android:pathData="M73.15,70.07 m-4.8,0 a4.8,4.8 0 1,0 9.6,0 a4.8,4.8 0 1,0 -9.6,0"
+        android:fillColor="#FFFFFF" />
+
+    <!-- 对勾 -->
+    <path
+        android:pathData="M43,54.5 L51.5,63 L66.5,46"
+        android:strokeColor="#121212"
+        android:strokeWidth="7.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000" />
+</vector>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 方向：黄 / 白 / 黑。黑白做骨架，黄色只做行动色与高亮，
+         饱和度回到"能记住"的程度，但不引入第二种彩色。 -->
+
+    <color name="canvas">#FBF8EF</color>
+    <color name="canvas_2">#F3EEDC</color>
+    <color name="surface">#FFFFFF</color>
+
+    <color name="ink">#121212</color>
+    <color name="ink_2">#565650</color>
+    <color name="ink_3">#8C8C84</color>
+    <color name="hairline">#E6E1D2</color>
+
+    <!-- 主色：正黄（按钮黄底黑字） -->
+    <color name="violet">#E9B824</color>
+    <color name="violet_deep">#C99A12</color>
+    <color name="orchid">#F5CE4E</color>
+    <color name="pink">#8C8C84</color>
+
+    <color name="peach">#F3E5B8</color>
+    <color name="mint">#A8862B</color>
+    <color name="mint_deep">#7A6A12</color>
+    <color name="coral">#C2410C</color>
+    <color name="coral_soft">#FBEDE3</color>
+
+    <color name="glass">#D9FFFFFF</color>
+    <color name="glass_faint">#8CFFFFFF</color>
+    <color name="glass_border">#B3FFFFFF</color>
+    <color name="scrim">#66101010</color>
+
+    <!-- 兼容旧引用 -->
+    <color name="paper">@color/canvas</color>
+    <color name="paper_deep">@color/canvas_2</color>
+    <color name="pine">@color/violet</color>
+    <color name="pine_press">@color/violet_deep</color>
+    <color name="pine_soft">#FBF2D2</color>
+    <color name="alert">@color/coral</color>
+    <color name="alert_soft">@color/coral_soft</color>
+    <color name="brand">@color/violet</color>
+    <color name="brand_dark">@color/violet_deep</color>
+    <color name="bg">@color/canvas</color>
+    <color name="card">@color/surface</color>
+    <color name="text">@color/ink</color>
+    <color name="text_sub">@color/ink_2</color>
+    <color name="warn">@color/coral</color>
+    <color name="ok">@color/mint_deep</color>
+    <color name="line">@color/hairline</color>
+
+    <color name="ic_launcher_background">#121212</color>
+    <color name="splash_bg">#0E0E0B</color>
+    <color name="splash_text">#F7F4E9</color>
+    <color name="splash_muted">#9A968A</color>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="270"
+                android:startColor="#1C1C18"
+                android:centerColor="#141412"
+                android:endColor="#0C0C0A" />
+            <corners android:radius="14dp" />
+        </shape>
+    </item>
+    <!-- 右上一点黄色氛围光 -->
+    <item
+        android:width="220dp"
+        android:height="200dp"
+        android:gravity="top|right"
+        android:right="-60dp"
+        android:top="-70dp">
+        <shape android:shape="oval">
+            <gradient
+                android:type="radial"
+                android:gradientRadius="110dp"
+                android:startColor="#33E9B824"
+                android:endColor="#00E9B824" />
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="132dp"
+    android:height="132dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+
+    <!-- 空状态：极光光环 + 一颗待办的光点 -->
+    <path
+        android:pathData="M50,10 a40,40 0 1,1 -0.1,0"
+        android:strokeWidth="3.4"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:type="linear"
+                android:startX="12"
+                android:startY="8"
+                android:endX="92"
+                android:endY="94">
+                <item android:offset="0" android:color="#FFE9B824" />
+                <item android:offset="0.5" android:color="#CCF5CE4E" />
+                <item android:offset="1" android:color="#AAE9B824" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <path
+        android:pathData="M50,22 a28,28 0 1,1 -0.1,0"
+        android:strokeColor="#33FFFFFF"
+        android:strokeWidth="2"
+        android:fillColor="#00000000" />
+
+    <path
+        android:pathData="M50,28 L50,52 L66,60"
+        android:strokeColor="#7A121212"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000" />
+
+    <path
+        android:pathData="M50,50 m-4.5,0 a4.5,4.5 0 1,0 9,0 a4.5,4.5 0 1,0 -9,0"
+        android:fillColor="#121212" />
+
+    <path
+        android:pathData="M82,20 m-3.2,0 a3.2,3.2 0 1,0 6.4,0 a3.2,3.2 0 1,0 -6.4,0"
+        android:fillColor="#E9B824" />
+</vector>
