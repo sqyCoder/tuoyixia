@@ -17,3 +17,6 @@ keystore.properties
 # 系统杂项
 Thumbs.db
 *.log
+
+# 本地临时文件
+.tmp/

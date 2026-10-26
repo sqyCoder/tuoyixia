@@ -7,6 +7,15 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/sqyCoder/tuoyixia/releases/latest">
+    <img alt="下载 APK" src="https://img.shields.io/badge/⬇_下载_APK-v1.0.4-E9B824?style=for-the-badge&labelColor=121212">
+  </a>
+  <a href="https://github.com/sqyCoder/tuoyixia/stargazers">
+    <img alt="stars" src="https://img.shields.io/github/stars/sqyCoder/tuoyixia?style=for-the-badge&labelColor=121212&color=E9B824">
+  </a>
+</p>
+
+<p align="center">
   <img alt="version" src="https://img.shields.io/badge/version-1.0.4-E9B824?style=flat-square">
   <img alt="platform" src="https://img.shields.io/badge/Android-8.0%2B-121212?style=flat-square&logo=android&logoColor=white">
   <img alt="size" src="https://img.shields.io/badge/APK-3.2MB-E9B824?style=flat-square">
@@ -43,7 +52,7 @@
 
 ## 使用方法
 
-1. **下载安装**：到 [Releases](https://github.com/sqyCoder/tuoyixia/releases) 下最新的 `tuoyixia-vX.X.X.apk`，允许"安装未知来源应用"。
+1. **下载安装**：点上面的按钮，或到 [Releases](https://github.com/sqyCoder/tuoyixia/releases) 下载 `tuoyixia-v1.0.4.apk`（约 3.2 MB），允许"安装未知来源应用"。
 2. **登录**：首次打开会先弹用户协议，同意后进入登录页——在**学习通官方页面**里正常登录，然后点"我已完成登录"。
 3. **同步**：回到首页点「立即同步」，等它把作业拉下来（首次会逐门课取，稍慢）。
 4. **设提醒**：设置里打开通知权限，设定提前提醒的时间。
