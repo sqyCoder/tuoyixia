@@ -45,7 +45,7 @@ import java.util.function.Consumer;
  */
 public class WorkActivity extends Activity {
     private static final String SYSTEM_PROMPT =
-            "你是学习通的作业解题助手。用户会给你一份作业的题目，请逐题给出可以直接提交的答案。"
+            "你是课程作业的解题助手。用户会给你一份作业的题目，请逐题给出可以直接提交的答案。"
                     + "只输出 JSON 数组，不要任何解释文字。格式：[{\"i\":1,\"answer\":\"B\"}]";
 
     private WebView web;

@@ -164,7 +164,7 @@ public class CookieStore implements CookieJar {
         if (old != null) cookies.remove(old);
     }
 
-    /** 本地是否已经存有学习通的登录 UID（说明网页端确实登录成功过）。 */
+    /** 本地是否已经存有平台的登录 UID（说明网页端确实登录成功过）。 */
     public synchronized boolean hasUid() {
         try {
             JSONArray arr = new JSONArray(Prefs.cookies(context));

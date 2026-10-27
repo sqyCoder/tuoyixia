@@ -349,7 +349,7 @@ public class MainActivity extends Activity {
     private void showAuthDialog() {
         new AlertDialog.Builder(this)
                 .setTitle(R.string.auth_expired)
-                .setMessage("需要重新登录学习通才能继续同步。")
+                .setMessage("需要重新登录课程平台才能继续同步。")
                 .setPositiveButton(R.string.relogin, (d, w) -> {
                     Prefs.setCookies(this, "[]");
                     Http.reset();

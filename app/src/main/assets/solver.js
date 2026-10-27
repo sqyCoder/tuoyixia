@@ -1,5 +1,5 @@
 /*
- * solver.js —— 超星学习通「作业作答页」题型识别与自动填充
+ * solver.js —— 作业作答页的题型识别与自动填充
  *
  * 适配要点（不同账号、不同课程、不同题型都要能用）：
  *  1. 题目容器：div.questionLi[typeName][data=qid]（老模板可能没有 typeName，用 #answertype{qid} 兜底）
@@ -172,7 +172,7 @@
   function findKeyOption(opts, want) {
     var letters = 'ABCDEFGHIJKLMNOP';
     var w = String(want || '').toUpperCase().replace(/[^A-Z]/g, '');
-    // ① 先按 data 精确匹配（选项键就是学习通内部字母）
+    // ① 先按 data 精确匹配（选项键就是页面内部的字母）
     var byKey = opts.filter(function (o) { return o.key && o.key.toUpperCase() === w; });
     if (byKey.length) return byKey[0].key;
     // ② 按显示字母（有些模板 data 与显示一致）

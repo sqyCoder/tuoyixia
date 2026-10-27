@@ -158,7 +158,7 @@ public class SettingsActivity extends Activity {
     private void confirmClear() {
         new AlertDialog.Builder(this)
                 .setTitle(R.string.clear_account)
-                .setMessage("将清除本机保存的登录状态、作业记录和提醒，学习通账号本身不受影响。")
+                .setMessage("将清除本机保存的登录状态、作业记录和提醒，平台账号本身不受影响。")
                 .setPositiveButton("清除", (d, w) -> clear())
                 .setNegativeButton("取消", null)
                 .show();
